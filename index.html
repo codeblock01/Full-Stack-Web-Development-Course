@@ -1,0 +1,100 @@
+<form action="" method="post">
+  <div>
+    <label for="firstName">First Name</label>
+    <input
+      type="text"
+      id="firstName"
+      required
+      minlength="3"
+      maxlength="20"
+      placeholder="First Name"
+      name="firstName"
+    />
+  </div>
+  <div>
+    <label for="lastName">Last Name</label>
+    <input
+      type="text"
+      id="lastName"
+      required
+      minlength="3"
+      maxlength="20"
+      placeholder="Last Name"
+      name="lastName"
+    />
+  </div>
+
+  <div>
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Email" name="email" />
+  </div>
+
+  <div>
+    <label for="password">Password</label>
+    <input
+      type="password"
+      id="password"
+      placeholder="Password"
+      name="password"
+      minlength="8"
+      maxlength="20"
+    />
+  </div>
+
+  <div>
+    <label for="age">Age</label>
+    <input type="number" id="age" min="5" max="50" name="age" />
+  </div>
+
+  <div>
+    <label for="profile">Profile Image</label>
+    <input type="file" accept="image/*" />
+  </div>
+
+  <div>
+    <label for="dob">Date of Birth</label>
+    <input type="date" id="dob" />
+  </div>
+
+  <div>
+    <p>Are you ?:</p>
+    <input type="radio" id="genz" name="personGen" value="genz" />
+    <label for="genz">Genz</label>
+
+    <input type="radio" id="genAlpha" name="personGen" value="genAlpha" />
+    <label for="genAlpha">GenAlpha</label>
+
+    <input type="radio" id="millennial" name="personGen" value="millennial" />
+    <label for="millennial">Millennial</label>
+  </div>
+
+  <div>
+    <label for="gender">Gender</label>
+
+    <select name="gender" id="gender">
+      <option value="">--select-gender--</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="thirdGender">Third Gender</option>
+    </select>
+  </div>
+
+  <div>
+    <label for="comment">Your Comment :</label>
+    <textarea id="comment" name="comment" cols="30" rows="10"></textarea>
+  </div>
+
+  <div>
+    <button type="reset">Reset</button>
+    <button type="submit">Submit</button>
+  </div>
+</form>
+
+<style>
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+  }
+</style>
