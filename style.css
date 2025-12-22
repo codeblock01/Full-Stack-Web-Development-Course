@@ -1,0 +1,34 @@
+/* ----------SPECIFICITY------------ */
+
+p {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+#text {
+  color: blue;
+}
+
+/* ----------INHERITANCE------------ */
+
+.parent {
+  color: red;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* ----------FORCED INHERITANCE------------ */
+
+input,
+textarea,
+a,
+button {
+  color: inherit;
+}
+
+input,
+textarea {
+  font-family: inherit;
+}
