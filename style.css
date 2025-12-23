@@ -1,0 +1,25 @@
+/* -------------FONT SIZE------------- */
+
+.absolute {
+  font-size: 30px;
+}
+
+.relative {
+  font-size: 2.5rem;
+}
+
+/* ------------SIZES (WIDTH & HEIGHT)-------------- */
+.parent {
+  border: 2px solid black;
+
+  width: 50vw;
+  height: 50vh;
+}
+
+.child {
+  border: 2px solid green;
+
+  width: 50%;
+  height: 80%;
+  overflow-y: auto;
+}
