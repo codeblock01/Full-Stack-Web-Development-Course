@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  font-size: 2rem;
+  display: inline-block;
+}
+
+.first {
+  display: none;
+}
+
+.visibility {
+  visibility: hidden;
+}
+
+.opacity {
+  opacity: 1;
+}
